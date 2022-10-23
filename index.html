@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6240851cec.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="userinput">
+        <form action="">
+
+            <h1><label for="city">Get Current Weather </label></h1>
+            <input type="search" name="city" id="city" placeholder="enter city">
+            <p>or</p>
+            <input type="button" value="current location">
+        </form>
+    </div>
+
+    <main>
+        <h1>Current Weather</h1>
+        <span>
+            <input type="search" name="main_city" id="main_city" placeholder="Enter Your City">
+            
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </span>
+
+    <section id="data">
+        <img src="./img/clear.png" alt="" id="main_img">
+
+        <span >
+            <h1 id="temp">15<sup>&deg;C</sup></h1>
+            
+            <p id="sky">Clear Sky</p>
+
+        </span>
+
+        <div id="extra_data">
+            <span id="left">
+                <i class="fa-solid fa-water"></i>
+
+                <span>                     
+                    <h2 id="humidity">16%</h2>
+                    <p>Humidity</p>
+                </span>
+
+            </span>
+
+            <span id="right">
+                <i class="fa-solid fa-wind"></i>
+                <span>                     
+                    <h2 id="wind">1Km/h</h2>
+                    <p>Wind Speed</p>
+                </span>
+
+            </span>
+        </div>
+    </section>
+
+    <section id="denied">
+
+        <img src="./img/denied.png" alt="permission denied" width="150px" height="150px">
+
+        <h1 id="rudemsg"><h1>
+
+
+
+    </section>
+
+    </main>
+    <script src="cities.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

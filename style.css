@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    margin: 0;
+    padding: 0;
+    height: 99.5vh;
+    background-color: rgb(0, 94, 216);
+}
+.userinput{
+    display: none;
+}
+
+form{
+   border: 2px solid black; 
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+form input,p{
+    text-align: center;
+    font-size:x-large;
+    margin: 10px;
+}
+
+form p::before{
+    content:" ";
+  display: block;
+  height: 2px;
+  width: 125px;
+  position: relative;
+  top: 17px;
+  background-color: black;
+}
+
+form p::after{
+    content:" ";
+  display: block;
+  height: 2px;
+  width: 125px;
+  position: relative;
+  top: -13px;
+  left: 156px;
+  background-color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(0, 41, 117) ;
+}
+
+#main_img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    
+}
+
+#data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main span h1{
+    font-size: 60px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+main span h1 sup{
+    
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+
+main span p{
+    margin-top: 0;
+}
+
+main span input{
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(150, 148, 148);
+}
+
+main span button{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border:2px solid rgba(51, 51, 51, 0.849);
+
+}
+
+#temp{
+    
+    text-align: center;
+
+}
+
+#extra_data{
+    
+    display: flex;
+    gap: 50px;
+    margin: 40px 0px;
+    
+}
+
+#left{
+    display: flex;
+    
+}
+
+#left i{
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#left h2{
+    font-size: 20px;
+    margin: 0;
+}
+
+#left p{
+    font-size: 15px;
+    margin: 0;
+}
+#right{
+    display: flex;
+    
+}
+
+#right i{
+    font-size: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#right h2{
+    font-size: 20px;
+    margin: 0;
+}
+
+#right p{
+    font-size: 15px;
+    margin: 0;
+}
+
+#denied{
+    text-align: center;
+    margin-top: 30px;
+    width: 250px;
+    display: none;
+
+}
