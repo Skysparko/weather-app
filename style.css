@@ -169,3 +169,12 @@ main span button{
     display: none;
 
 }
+
+@media screen and (max-width:350px) {
+    main{
+        width: 75%;
+    }
+    #main_city{
+        width: 80%;
+    }
+}
