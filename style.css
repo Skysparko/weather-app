@@ -122,6 +122,10 @@ main span button{
     
 }
 
+#search{
+    cursor: pointer;
+}
+
 #left i{
     font-size: 30px;
     margin-right: 5px;
