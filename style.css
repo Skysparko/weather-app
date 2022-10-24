@@ -60,7 +60,6 @@ main{
 #main_img{
     height: 150px;
     width: 150px;
-    margin-top: 20px;
     
 }
 
@@ -183,4 +182,8 @@ main span button{
     #rudemsg{
         font-size: 21px;
     }
+}
+
+#current_city{
+    margin-bottom: 0;
 }

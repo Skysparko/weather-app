@@ -10,12 +10,16 @@ const wind = document.getElementById("wind");
 const image = document.getElementById("main_img");
 const sky = document.getElementById("sky");
 const rude = document.getElementById("rudemsg");
+const currCity = document.getElementById("current_city");
 
 let flag = true;
 
 
 
 function output(fetchedData){
+
+    currCity.textContent= `City: ${fetchedData.name}`
+
     temp.innerHTML=`${Math.round(parseFloat(fetchedData.main.temp))}<sup>&deg;C</sup>`
 
     humid.textContent = `${Math.round(parseFloat(fetchedData.main.humidity))}%`
